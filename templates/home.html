@@ -1,0 +1,996 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seamaster Marine Services LLC | Abu Dhabi</title>
+
+    <meta name="description"
+          content="Seamaster Marine Services LLC — Complete marine solutions, ship management, marine surveys, consultancy, chartering, manpower and engineering services.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+
+<!-- =========================================================
+     SEAMASTER HEADER
+========================================================= -->
+
+<header class="site-header">
+
+    <!-- WHITE BRAND / CONTACT HEADER -->
+    <div class="contact-header">
+        <div class="contact-header-inner">
+
+            <a href="{% url 'home' %}" class="brand-logo">
+                <span class="brand-mark">SM</span>
+
+                <span class="brand-text">
+                    <strong>SEAMASTER</strong>
+                    <small>MARINE SERVICES LLC</small>
+                </span>
+            </a>
+
+            <div class="header-contact-items">
+
+                <div class="header-contact-item">
+                    <span class="contact-icon">☎</span>
+                    <div>
+                        <small>CALL US</small>
+                        <strong>+971 50 357 9482</strong>
+                    </div>
+                </div>
+
+                <div class="header-contact-item">
+                    <span class="contact-icon">✉</span>
+                    <div>
+                        <small>EMAIL US</small>
+                        <strong>info@seamastermarine.net</strong>
+                    </div>
+                </div>
+
+                <div class="header-contact-item location-item">
+                    <span class="contact-icon">⌖</span>
+                    <div>
+                        <small>LOCATION</small>
+                        <strong>Abu Dhabi, UAE</strong>
+                    </div>
+                </div>
+
+                <a href="{% url 'contact' %}" class="header-enquire">
+                    ENQUIRE NOW
+                    <span>↗</span>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- DARK NAVIGATION BAR -->
+    <div class="nav-bar">
+        <div class="nav-bar-inner">
+
+            <nav class="main-nav" id="main-navigation">
+
+                <a href="{% url 'home' %}" class="active">
+                    HOME
+                </a>
+
+                <a href="{% url 'about' %}">
+                    ABOUT US
+                </a>
+
+                <a href="{% url 'services' %}">
+                    SERVICES
+                </a>
+
+                <a href="{% url 'home' %}#sectors">
+                    SECTORS
+                </a>
+
+                <a href="{% url 'home' %}#why-seamaster">
+                    WHY SEAMASTER
+                </a>
+
+                <a href="{% url 'home' %}#projects">
+                    PROJECTS
+                </a>
+
+                <a href="{% url 'home' %}#news">
+                    NEWS
+                </a>
+
+                <a href="{% url 'contact' %}">
+                    CONTACT
+                </a>
+
+            </nav>
+
+            <div class="nav-right">
+
+                <button class="search-button"
+                        type="button"
+                        aria-label="Search">
+                    ⌕
+                </button>
+
+            </div>
+
+            <button class="mobile-menu"
+                    type="button"
+                    aria-label="Open navigation"
+                    aria-controls="main-navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+        </div>
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="marine-hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <div class="hero-eyebrow">
+            MARINE & OFFSHORE SERVICES
+        </div>
+
+        <h1>
+            SAFE SEAS.
+            <br>
+            STRONGER
+            <span>TOMORROW.</span>
+        </h1>
+
+        <p class="hero-description">
+            Complete marine solutions for vessel owners,
+            operators, offshore contractors and project clients.
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="{% url 'services' %}" class="hero-btn primary">
+                OUR SERVICES
+                <span>↗</span>
+            </a>
+
+            <a href="{% url 'contact' %}" class="hero-btn secondary">
+                CONTACT US
+                <span>→</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-location">
+        <span>●</span>
+        ABU DHABI • UAE
+    </div>
+
+
+    <div class="hero-scroll">
+        SCROLL TO EXPLORE
+        <span>↓</span>
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SERVICE CAPABILITIES
+========================================================= -->
+
+<section class="capability-bar">
+
+    <div class="capability-item">
+
+        <div class="capability-icon">
+            ⚓
+        </div>
+
+        <div>
+            <strong>SHIP MANAGEMENT</strong>
+            <small>Operations & technical support</small>
+        </div>
+
+    </div>
+
+
+    <div class="capability-item">
+
+        <div class="capability-icon">
+            ◉
+        </div>
+
+        <div>
+            <strong>MARINE SURVEYS</strong>
+            <small>Inspection & marine assurance</small>
+        </div>
+
+    </div>
+
+
+    <div class="capability-item">
+
+        <div class="capability-icon">
+            ◇
+        </div>
+
+        <div>
+            <strong>CONSULTANCY</strong>
+            <small>Marine expertise & advisory</small>
+        </div>
+
+    </div>
+
+
+    <div class="capability-item">
+
+        <div class="capability-icon">
+            ↔
+        </div>
+
+        <div>
+            <strong>CHARTERING</strong>
+            <small>Vessel sourcing & brokering</small>
+        </div>
+
+    </div>
+
+
+    <div class="capability-item">
+
+        <div class="capability-icon">
+            ◎
+        </div>
+
+        <div>
+            <strong>MANPOWER</strong>
+            <small>Specialist marine personnel</small>
+        </div>
+
+    </div>
+
+
+    <div class="capability-item">
+
+        <div class="capability-icon">
+            △
+        </div>
+
+        <div>
+            <strong>ENGINEERING</strong>
+            <small>Technical project support</small>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ABOUT / WHO WE ARE
+========================================================= -->
+
+<section class="home-about">
+
+    <div class="home-about-image">
+
+        <div class="image-label">
+            SEAMASTER MARINE SERVICES
+        </div>
+
+    </div>
+
+
+    <div class="home-about-content">
+
+        <div class="section-kicker">
+            WHO WE ARE
+        </div>
+
+        <h2>
+            EXPERIENCE.
+            <br>
+            <span>EXCELLENCE AT SEA.</span>
+        </h2>
+
+        <p class="large-text">
+            Seamaster Marine Services LLC is an Abu Dhabi-based
+            maritime services company supporting ship owners,
+            operators, charterers, offshore contractors and
+            project clients.
+        </p>
+
+        <p>
+            From vessel operations and independent inspections
+            to specialist manpower, engineering and vessel
+            chartering, we bring practical marine expertise
+            together with safety, integrity and precision.
+        </p>
+
+
+        <div class="about-features">
+
+            <div>
+                <span>01</span>
+                <strong>MARINE EXPERTISE</strong>
+            </div>
+
+            <div>
+                <span>02</span>
+                <strong>OPERATIONAL FOCUS</strong>
+            </div>
+
+            <div>
+                <span>03</span>
+                <strong>CLIENT FIRST</strong>
+            </div>
+
+            <div>
+                <span>04</span>
+                <strong>SAFETY & INTEGRITY</strong>
+            </div>
+
+        </div>
+
+
+        <a href="{% url 'about' %}" class="dark-link">
+            DISCOVER SEAMASTER
+            <span>↗</span>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SERVICES
+========================================================= -->
+
+<section class="home-services" id="services">
+
+    <div class="section-heading">
+
+        <div>
+
+            <div class="section-kicker">
+                OUR SERVICES
+            </div>
+
+            <h2>
+                COMPLETE MARINE
+                <br>
+                <span>SOLUTIONS.</span>
+            </h2>
+
+        </div>
+
+        <p>
+            Integrated marine services designed to support
+            vessels, offshore assets and demanding marine
+            projects from planning through execution.
+        </p>
+
+    </div>
+
+
+    <div class="service-cards">
+
+
+        <!-- 01 -->
+
+        <article class="modern-service-card">
+
+            <div class="service-number">
+                01
+            </div>
+
+            <div class="service-card-icon">
+                ⚓
+            </div>
+
+            <h3>
+                Ship Management
+                <br>
+                & Operations
+            </h3>
+
+            <p>
+                Operational and technical support designed
+                around safe, efficient and compliant vessel
+                performance.
+            </p>
+
+            <a href="{% url 'contact' %}">
+                LEARN MORE →
+            </a>
+
+        </article>
+
+
+        <!-- 02 -->
+
+        <article class="modern-service-card">
+
+            <div class="service-number">
+                02
+            </div>
+
+            <div class="service-card-icon">
+                ◉
+            </div>
+
+            <h3>
+                Marine
+                <br>
+                Surveys
+            </h3>
+
+            <p>
+                Independent marine assurance and inspection
+                services for vessels and offshore units.
+            </p>
+
+            <a href="{% url 'contact' %}">
+                LEARN MORE →
+            </a>
+
+        </article>
+
+
+        <!-- 03 -->
+
+        <article class="modern-service-card">
+
+            <div class="service-number">
+                03
+            </div>
+
+            <div class="service-card-icon">
+                ◇
+            </div>
+
+            <h3>
+                Marine
+                <br>
+                Consultancy
+            </h3>
+
+            <p>
+                Experienced advice for marine operations,
+                projects, compliance and risk management.
+            </p>
+
+            <a href="{% url 'contact' %}">
+                LEARN MORE →
+            </a>
+
+        </article>
+
+
+        <!-- 04 -->
+
+        <article class="modern-service-card">
+
+            <div class="service-number">
+                04
+            </div>
+
+            <div class="service-card-icon">
+                ↔
+            </div>
+
+            <h3>
+                Chartering &
+                <br>
+                Brokering
+            </h3>
+
+            <p>
+                Connecting suitable vessels with project
+                and chartering requirements.
+            </p>
+
+            <a href="{% url 'contact' %}">
+                LEARN MORE →
+            </a>
+
+        </article>
+
+
+        <!-- 05 -->
+
+        <article class="modern-service-card">
+
+            <div class="service-number">
+                05
+            </div>
+
+            <div class="service-card-icon">
+                ◎
+            </div>
+
+            <h3>
+                Marine Manpower
+                <br>
+                Supplies
+            </h3>
+
+            <p>
+                Specialist marine personnel for offshore,
+                project and vessel operations.
+            </p>
+
+            <a href="{% url 'contact' %}">
+                LEARN MORE →
+            </a>
+
+        </article>
+
+
+        <!-- 06 -->
+
+        <article class="modern-service-card">
+
+            <div class="service-number">
+                06
+            </div>
+
+            <div class="service-card-icon">
+                △
+            </div>
+
+            <h3>
+                Engineering
+                <br>
+                Services
+            </h3>
+
+            <p>
+                Practical engineering support for marine
+                and offshore assets and projects.
+            </p>
+
+            <a href="{% url 'contact' %}">
+                LEARN MORE →
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     WHY SEAMASTER
+========================================================= -->
+
+<section class="why-seamaster" id="why-seamaster">
+
+    <div class="why-inner">
+
+        <div>
+
+            <div class="section-kicker">
+                WHY SEAMASTER
+            </div>
+
+            <h2>
+                BUILT AROUND
+                <br>
+                <span>YOUR OPERATION.</span>
+            </h2>
+
+            <p>
+                Marine operations demand experience, speed and
+                accountability. Our approach keeps the client
+                requirement at the centre of every assignment.
+            </p>
+
+            <a href="{% url 'contact' %}" class="outline-light-btn">
+                TALK TO OUR TEAM →
+            </a>
+
+        </div>
+
+
+        <div class="why-points">
+
+            <div class="why-point">
+                <span>01</span>
+                <div>
+                    <h3>Experienced Professionals</h3>
+                    <p>
+                        Practical marine knowledge supporting
+                        complex vessel and offshore requirements.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="why-point">
+                <span>02</span>
+                <div>
+                    <h3>Responsive Support</h3>
+                    <p>
+                        Clear communication and fast response
+                        when operational requirements change.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="why-point">
+                <span>03</span>
+                <div>
+                    <h3>Integrated Capability</h3>
+                    <p>
+                        Multiple marine disciplines brought
+                        together through one service partner.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="why-point">
+                <span>04</span>
+                <div>
+                    <h3>Safety & Integrity</h3>
+                    <p>
+                        Professional delivery built around
+                        responsible marine operations.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SECTORS
+========================================================= -->
+
+<section class="home-sectors" id="sectors">
+
+    <div class="section-heading">
+
+        <div>
+
+            <div class="section-kicker">
+                SECTORS
+            </div>
+
+            <h2>
+                SUPPORTING
+                <br>
+                <span>DEMANDING OPERATIONS.</span>
+            </h2>
+
+        </div>
+
+        <p>
+            Flexible marine support across offshore energy,
+            commercial shipping, marine construction and
+            specialist vessel operations.
+        </p>
+
+    </div>
+
+
+    <div class="sector-cards">
+
+        <div class="sector-card sector-offshore">
+
+            <div>
+                <small>01</small>
+                <h3>OFFSHORE</h3>
+                <p>
+                    Energy, construction & offshore support
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="sector-card sector-marine">
+
+            <div>
+                <small>02</small>
+                <h3>MARINE</h3>
+                <p>
+                    Commercial vessel operations
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="sector-card sector-projects">
+
+            <div>
+                <small>03</small>
+                <h3>PROJECTS</h3>
+                <p>
+                    Marine project support
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="sector-card sector-chartering">
+
+            <div>
+                <small>04</small>
+                <h3>CHARTERING</h3>
+                <p>
+                    Vessel sourcing & commercial support
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PROJECTS PLACEHOLDER
+========================================================= -->
+
+<section class="projects-preview" id="projects">
+
+    <div class="projects-content">
+
+        <div class="section-kicker">
+            PROJECTS
+        </div>
+
+        <h2>
+            MARINE EXPERIENCE
+            <br>
+            <span>IN ACTION.</span>
+        </h2>
+
+        <p>
+            Our project portfolio is being prepared.
+            Contact our team to discuss your vessel,
+            offshore or marine project requirement.
+        </p>
+
+        <a href="{% url 'contact' %}" class="hero-btn primary">
+            DISCUSS YOUR PROJECT
+            <span>↗</span>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     NEWS PLACEHOLDER
+========================================================= -->
+
+<section class="news-preview" id="news">
+
+    <div class="section-heading">
+
+        <div>
+
+            <div class="section-kicker">
+                NEWS & INSIGHTS
+            </div>
+
+            <h2>
+                MARITIME
+                <br>
+                <span>UPDATES.</span>
+            </h2>
+
+        </div>
+
+        <p>
+            Marine industry updates, company announcements
+            and operational insights from Seamaster.
+        </p>
+
+    </div>
+
+
+    <div class="news-placeholder">
+
+        <div class="news-icon">
+            +
+        </div>
+
+        <h3>
+            Coming Soon
+        </h3>
+
+        <p>
+            Our latest maritime news and insights will
+            appear here.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FINAL CTA
+========================================================= -->
+
+<section class="final-cta">
+
+    <div>
+
+        <div class="section-kicker">
+            LET'S WORK TOGETHER
+        </div>
+
+        <h2>
+            YOUR OPERATION.
+            <br>
+            <span>OUR EXPERTISE.</span>
+        </h2>
+
+    </div>
+
+
+    <a href="{% url 'contact' %}" class="cta-button">
+        MAKE AN ENQUIRY
+        <span>↗</span>
+    </a>
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="main-footer">
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <a href="{% url 'home' %}" class="logo">
+
+                <span class="logo-mark">
+                    SM
+                </span>
+
+                <span class="logo-text">
+                    <strong>SEAMASTER</strong>
+                    <small>MARINE SERVICES LLC</small>
+                </span>
+
+            </a>
+
+            <p>
+                Marine expertise. Operational confidence.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>QUICK LINKS</h4>
+
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'about' %}">About Us</a>
+            <a href="{% url 'services' %}">Services</a>
+            <a href="{% url 'contact' %}">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>SERVICES</h4>
+
+            <a href="{% url 'services' %}">Ship Management</a>
+            <a href="{% url 'services' %}">Marine Surveys</a>
+            <a href="{% url 'services' %}">Consultancy</a>
+            <a href="{% url 'services' %}">Chartering</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>CONTACT</h4>
+
+            <a href="mailto:info@seamastermarine.net">
+                info@seamastermarine.net
+            </a>
+
+            <a href="tel:+971503579482">
+                +971 50 357 9482
+            </a>
+
+            <span>
+                Abu Dhabi, United Arab Emirates
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © {% now "Y" %} Seamaster Marine Services LLC.
+            All rights reserved.
+        </span>
+
+        <span>
+            Marine & Offshore Services
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const menuButton = document.querySelector(".mobile-menu");
+        const navigation = document.querySelector(".main-nav");
+
+        if (menuButton && navigation) {
+            menuButton.addEventListener("click", function () {
+                const isOpen = navigation.classList.toggle("mobile-visible");
+                menuButton.setAttribute("aria-expanded", isOpen ? "true" : "false");
+            });
+
+            navigation.querySelectorAll("a").forEach(function (link) {
+                link.addEventListener("click", function () {
+                    navigation.classList.remove("mobile-visible");
+                    menuButton.setAttribute("aria-expanded", "false");
+                });
+            });
+        }
+    });
+</script>
+
+<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

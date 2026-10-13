@@ -1,0 +1,620 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Seamaster Marine Services LLC</title>
+
+    <meta name="description"
+          content="Contact Seamaster Marine Services LLC in Abu Dhabi for marine services, vessel support, surveys, consultancy, chartering, manpower and engineering.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+
+<body>
+
+
+<!-- =========================================================
+     HEADER
+========================================================= -->
+
+<header class="site-header">
+
+    <div class="contact-header">
+
+        <div class="contact-header-inner">
+
+            <a href="{% url 'home' %}" class="brand-logo">
+
+                <span class="brand-mark">SM</span>
+
+                <span class="brand-text">
+                    <strong>SEAMASTER</strong>
+                    <small>MARINE SERVICES LLC</small>
+                </span>
+
+            </a>
+
+
+            <div class="header-contact-items">
+
+                <div class="header-contact-item">
+
+                    <span class="contact-icon">☎</span>
+
+                    <div>
+                        <small>CALL US</small>
+                        <strong>+971 50 357 9482</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="header-contact-item">
+
+                    <span class="contact-icon">✉</span>
+
+                    <div>
+                        <small>EMAIL US</small>
+                        <strong>info@seamastermarine.net</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="header-contact-item location-item">
+
+                    <span class="contact-icon">⌖</span>
+
+                    <div>
+                        <small>LOCATION</small>
+                        <strong>Abu Dhabi, UAE</strong>
+                    </div>
+
+                </div>
+
+
+                <a href="{% url 'contact' %}" class="header-enquire">
+                    ENQUIRE NOW
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="nav-bar">
+
+        <div class="nav-bar-inner">
+
+            <nav class="main-nav" id="main-navigation">
+
+                <a href="{% url 'home' %}">
+                    HOME
+                </a>
+
+                <a href="{% url 'about' %}">
+                    ABOUT US
+                </a>
+
+                <a href="{% url 'services' %}">
+                    SERVICES
+                </a>
+
+                <a href="{% url 'home' %}#sectors">
+                    SECTORS
+                </a>
+
+                <a href="{% url 'home' %}#why-seamaster">
+                    WHY SEAMASTER
+                </a>
+
+                <a href="{% url 'home' %}#projects">
+                    PROJECTS
+                </a>
+
+                <a href="{% url 'home' %}#news">
+                    NEWS
+                </a>
+
+                <a href="{% url 'contact' %}" class="active">
+                    CONTACT
+                </a>
+
+            </nav>
+
+
+            <div class="nav-right">
+
+                <button class="search-button"
+                        type="button"
+                        aria-label="Search">
+                    ⌕
+                </button>
+
+            </div>
+
+
+            <button class="mobile-menu"
+                    type="button"
+                    aria-label="Open navigation"
+                    aria-controls="main-navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     CONTACT HERO
+========================================================= -->
+
+<section class="inner-page-hero contact-page-hero">
+
+    <div class="inner-page-overlay"></div>
+
+    <div class="inner-page-content">
+
+        <div class="section-kicker">
+            SEAMASTER / CONTACT
+        </div>
+
+        <h1>
+            LET'S WORK
+            <br>
+            <span>TOGETHER.</span>
+        </h1>
+
+        <p>
+            Tell us about your vessel, marine project or
+            manpower requirement and our team will respond.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONTACT AREA
+========================================================= -->
+
+<section class="contact-main-section">
+
+    <div class="inner-container">
+
+        <div class="contact-main-grid">
+
+
+            <!-- CONTACT INFORMATION -->
+
+            <div class="contact-information">
+
+                <div class="inner-section-label">
+                    01 / GET IN TOUCH
+                </div>
+
+                <h2>
+                    TELL US WHAT YOU
+                    <br>
+                    <span>NEED AT SEA.</span>
+                </h2>
+
+                <p class="contact-lead">
+                    Share your vessel, project or manpower
+                    requirement. Our team will respond with
+                    the appropriate service pathway.
+                </p>
+
+
+                <div class="contact-info-list">
+
+                    <a href="tel:+971503579482"
+                       class="contact-info-item">
+
+                        <span class="contact-info-icon">
+                            ☎
+                        </span>
+
+                        <div>
+                            <small>CALL US</small>
+                            <strong>
+                                +971 50 357 9482
+                            </strong>
+                        </div>
+
+                    </a>
+
+
+                    <a href="mailto:info@seamastermarine.net"
+                       class="contact-info-item">
+
+                        <span class="contact-info-icon">
+                            ✉
+                        </span>
+
+                        <div>
+                            <small>EMAIL US</small>
+                            <strong>
+                                info@seamastermarine.net
+                            </strong>
+                        </div>
+
+                    </a>
+
+
+                    <div class="contact-info-item">
+
+                        <span class="contact-info-icon">
+                            ⌖
+                        </span>
+
+                        <div>
+                            <small>LOCATION</small>
+                            <strong>
+                                Abu Dhabi, United Arab Emirates
+                            </strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-whatsapp">
+
+                    <span>WhatsApp / Direct Enquiry</span>
+
+                    <a href="https://wa.me/971503579482"
+                       target="_blank"
+                       rel="noopener">
+                        MESSAGE US →
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- FORM -->
+
+            <div class="contact-form-wrapper">
+
+                <div class="contact-form-heading">
+
+                    <span>
+                        SERVICE ENQUIRY
+                    </span>
+
+                    <h3>
+                        START A
+                        <strong>CONVERSATION.</strong>
+                    </h3>
+
+                </div>
+
+
+                <form id="enquiryForm"
+                      class="premium-contact-form"
+                      method="post">
+
+                    {% csrf_token %}
+
+
+                    <div class="form-two-columns">
+
+                        <label>
+                            NAME
+
+                            <input
+                                type="text"
+                                name="name"
+                                required
+                                placeholder="Your name">
+                        </label>
+
+
+                        <label>
+                            COMPANY
+
+                            <input
+                                type="text"
+                                name="company"
+                                placeholder="Company name">
+                        </label>
+
+                    </div>
+
+
+                    <div class="form-two-columns">
+
+                        <label>
+                            EMAIL
+
+                            <input
+                                type="email"
+                                name="email"
+                                required
+                                placeholder="you@company.com">
+                        </label>
+
+
+                        <label>
+                            PHONE
+
+                            <input
+                                type="text"
+                                name="phone"
+                                placeholder="+971">
+                        </label>
+
+                    </div>
+
+
+                    <label>
+                        SERVICE REQUIRED
+
+                        <select name="service">
+
+                            <option value="Ship Management & Operations">
+                                Ship Management & Operations
+                            </option>
+
+                            <option value="Marine Surveys">
+                                Marine Surveys
+                            </option>
+
+                            <option value="Marine Consultancy">
+                                Marine Consultancy
+                            </option>
+
+                            <option value="Chartering & Brokering">
+                                Chartering & Brokering
+                            </option>
+
+                            <option value="Marine Manpower Supplies">
+                                Marine Manpower Supplies
+                            </option>
+
+                            <option value="Engineering">
+                                Engineering
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                    <label>
+                        YOUR REQUIREMENT
+
+                        <textarea
+                            name="message"
+                            rows="7"
+                            required
+                            placeholder="Tell us about your vessel, project or requirement..."></textarea>
+
+                    </label>
+
+
+                    <div class="contact-form-actions">
+
+                        <button
+                            type="submit"
+                            class="inner-submit-button">
+
+                            SEND ENQUIRY
+                            <span>↗</span>
+
+                        </button>
+
+                        <a href="mailto:info@seamastermarine.net"
+                           class="email-direct-button">
+
+                            EMAIL DIRECTLY
+                            <span>→</span>
+
+                        </a>
+
+                    </div>
+
+
+                    <small id="formStatus"></small>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     MARINE IMAGE / CTA
+========================================================= -->
+
+<section class="contact-image-strip">
+
+    <div class="contact-image-overlay"></div>
+
+    <div>
+
+        <div class="section-kicker">
+            ABU DHABI • UAE
+        </div>
+
+        <h2>
+            READY WHEN
+            <br>
+            <span>YOU ARE.</span>
+        </h2>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="main-footer">
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <a href="{% url 'home' %}" class="logo">
+
+                <span class="logo-mark">
+                    SM
+                </span>
+
+                <span class="logo-text">
+                    <strong>SEAMASTER</strong>
+                    <small>MARINE SERVICES LLC</small>
+                </span>
+
+            </a>
+
+            <p>
+                Marine expertise. Operational confidence.
+            </p>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>QUICK LINKS</h4>
+
+            <a href="{% url 'home' %}">
+                Home
+            </a>
+
+            <a href="{% url 'about' %}">
+                About Us
+            </a>
+
+            <a href="{% url 'services' %}">
+                Services
+            </a>
+
+            <a href="{% url 'contact' %}">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>SERVICES</h4>
+
+            <a href="{% url 'services' %}">
+                Ship Management
+            </a>
+
+            <a href="{% url 'services' %}">
+                Marine Surveys
+            </a>
+
+            <a href="{% url 'services' %}">
+                Consultancy
+            </a>
+
+            <a href="{% url 'services' %}">
+                Chartering
+            </a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>CONTACT</h4>
+
+            <a href="mailto:info@seamastermarine.net">
+                info@seamastermarine.net
+            </a>
+
+            <a href="tel:+971503579482">
+                +971 50 357 9482
+            </a>
+
+            <span>
+                Abu Dhabi, United Arab Emirates
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © {% now "Y" %} Seamaster Marine Services LLC.
+            All rights reserved.
+        </span>
+
+        <span>
+            Marine & Offshore Services
+        </span>
+
+    </div>
+
+</footer>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const menuButton = document.querySelector(".mobile-menu");
+    const navigation = document.querySelector(".main-nav");
+
+    if (menuButton && navigation) {
+
+        menuButton.addEventListener("click", function () {
+
+            const isOpen =
+                navigation.classList.toggle("mobile-visible");
+
+            menuButton.setAttribute(
+                "aria-expanded",
+                isOpen ? "true" : "false"
+            );
+
+        });
+
+    }
+
+});
+</script>
+
+<script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>

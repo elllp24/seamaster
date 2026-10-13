@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+.env
+.env.*
+staticfiles/
+media/
+seamaster-deploy.tar.gz
+templates_backup/
+static_backup/
+css_backup/
+js_backup/
+static/*_backup.*
+templates/*_backup.*
+**/*_backup.*
